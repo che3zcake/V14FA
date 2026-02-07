@@ -51,9 +51,9 @@ function App() {
         <div>
             <div>
                 {count?
-                    <img style={{zIndex:100,width:toggleDialog?"175px":"300px", top:"40%", left:toggleDialog?"25%":"50%", position:"absolute", transform: "translate(-50%,-50%)", transition: "all 0.3s ease-in-out"}} src="/cat_pop1.png" alt="pop cat"/>
+                    <img style={{zIndex:100,width:toggleDialog?"175px":"300px", top:"40%", left:toggleDialog?"26%":"50%", position:"absolute", transform: "translate(-50%,-50%)", transition: "all 0.3s ease-in-out"}} src="/cat_pop1.png" alt="pop cat"/>
                     :
-                    <img style={{zIndex:100,width:"175px", top:"40%", left:"25", position:"absolute", transform: "translate(-50%,-50%)"}} src="/cat_pop2.png" alt="pop cat"/>}
+                    <img style={{zIndex:100,width:"175px", top:"40%", left:"26", position:"absolute", transform: "translate(-50%,-50%)"}} src="/cat_pop2.png" alt="pop cat"/>}
 
                 <img
                     style={{
