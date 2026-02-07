@@ -51,9 +51,9 @@ function App() {
         <div>
             <div>
                 {count?
-                    <img style={{zIndex:100,width:toggleDialog?"200px":"300px", top:"35%", left:toggleDialog?"30%":"50%", position:"absolute", transform: "translate(-50%,-50%)", transition: "all 0.3s ease-in-out"}} src="/cat_pop1.png" alt="pop cat"/>
+                    <img style={{zIndex:100,width:toggleDialog?"150px":"300px", top:"35%", left:toggleDialog?"30%":"50%", position:"absolute", transform: "translate(-50%,-50%)", transition: "all 0.3s ease-in-out"}} src="/cat_pop1.png" alt="pop cat"/>
                     :
-                    <img style={{zIndex:100,width:"200px", top:"35%", left:"30%", position:"absolute", transform: "translate(-50%,-50%)"}} src="/cat_pop2.png" alt="pop cat"/>}
+                    <img style={{zIndex:100,width:"150px", top:"35%", left:"30%", position:"absolute", transform: "translate(-50%,-50%)"}} src="/cat_pop2.png" alt="pop cat"/>}
 
                 <img
                     style={{
@@ -144,13 +144,15 @@ function App() {
                 {saidYes?<img
                     style={{
                         position:"absolute",
-                        left: "7.5%"
+                        left: "7.5%",
+                        width: "400px"
                     }}
                     src="/explosion.png"/>:""}
                 {saidYes?<img
                     style={{
                         position:"absolute",
-                        left: "55%"
+                        left: "55%",
+                        width: "400px"
                     }}
                     src="/explosion.png"/>:""}
                 {saidYes?<img
